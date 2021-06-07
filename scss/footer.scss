@@ -1,0 +1,30 @@
+.pie {
+	background-color: #474747;
+	padding: 15px;
+	justify-content: space-around;
+	}
+	
+		
+.redes{
+		background: none;
+		list-style: none;
+		align-items: center;
+			
+     li {
+		display: inline-block;
+		padding: 10px;
+		}
+    }
+	
+.texContacto {
+		color: #7edabe;
+		font-size: 14px;
+		width: 500px;
+		}
+.nav1{
+	flex-grow: inherit;
+}
+
+a:hover{
+	color: orange;
+}

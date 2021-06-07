@@ -1,0 +1,177 @@
+
+.cajaImg {
+	margin: auto;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.bordeCarrousel {
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	}
+
+
+.cajaTitular {
+	overflow: hidden;
+	margin: auto;
+	background-color:white;
+	position: relative;
+	bottom: 120px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px ;
+	z-index: 200;
+}
+
+.cajaTextIndex{
+	overflow: hidden;
+	margin: auto;
+}
+
+.cajaVideo {
+    background-color: #93dce9;
+    text-align: center;
+    border-radius:10px;
+    transition: height 2s;
+    margin: 20px;
+    padding: 10px;
+    animation: flipInX 3.5s ;
+    }
+	
+.cajaVideo__a:hover {
+  background-color: #FFD764;
+  cursor: pointer;
+  }
+
+.cajaVideo__img{
+width: 100%;
+margin: auto;
+}
+
+.cajaVideo__titulo{
+    color:red;
+    font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+}
+
+
+/* ---estilos Acordion--------------------*/ 
+
+
+.acordion1A{
+	background-color:rgb(228, 132, 88);
+	color: black;
+	box-shadow: black;
+
+}
+.acordion2A{
+	background-color:rgb(118, 202, 202);
+	color: black;
+	box-shadow: black;
+
+}
+
+.acordion3A{
+	background-color:rgb(218, 185, 80);
+	color: black;
+	box-shadow: black;
+}
+
+/* ---Seccion QUE ES--------------------*/ 
+
+.cajaQueEs{
+	margin-top:20px ;
+	margin-bottom: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+/* --- Seccion HISTORIA --------------------*/ 
+
+   
+  .cajaImgHistoria {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-image: url(../imagenes/fondo2.jpg);
+		  }
+  
+  .imgHistoria {
+	width: 290px;
+	border-radius:10px;
+	margin: 20px;
+	animation: fadeInUp 3.5s ;
+		  }
+  
+	/* --- Seccion INFORMACION --------------------*/ 
+
+.columnaInfo {
+	padding: 20px;
+	background-color: #ffdc7c;
+	border-radius:10px;
+  margin: 10px;
+  animation: fadeIn 2s ;
+	}
+
+.imgInfo {
+	margin-bottom: 20px;
+	border-radius:10px;
+	width: 100%;
+	}
+
+
+/* -------------------768 --------------------------------------------------------------*/ 
+
+@media only screen and (min-width: 768px) {
+
+
+	/* --- Seccion HOME--------------------*/ 
+	
+	.bordeCarrousel {
+		border-bottom-left-radius: 50px;
+		border-bottom-right-radius: 50px;
+		}
+	
+	
+	.aHome {
+		overflow: hidden;
+		margin: auto;
+		background-color:white;
+		position: relative;
+		bottom: 120px;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px ;
+		z-index: 200;
+	}
+	
+	/* --- Seccion HISTORIA --------------------*/ 
+	
+		   .cajaImgHistoria {
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-evenly;
+			  }
+	
+	/* --- Estilos TEXTO --------------------*/ 
+	
+	h1{ 
+		font-size: 45px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	
+	h2 {
+		font-size: 25px;
+		}
+			
+	h3 {
+		font-size: 20px;
+		}
+	
+	p {
+		font-size: 16px;
+	}
+	
+	 }
+	
+	  /* ------------------- FIN 768 --------------------------------------------------------------*/ 

@@ -1,0 +1,12 @@
+$animaciones: ( 
+	In: fadeIn 2s ,
+	InUp: fadeInUp 2s ,
+	Pulses: pulse 3s ,
+	Flip: flipInY 2s ,
+); 
+
+@each $animacion, $efecto in $animaciones {
+.caja--#{$animacion} {
+   animation: $efecto;
+}
+}

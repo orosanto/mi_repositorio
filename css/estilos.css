@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none; 
+}
+
+body {
+    font-family: 'Montserrat', sans-serif; }
+
+header {
+  background-color: #EBEDEF 30%; }
+
+.logo {
+  width: 180px; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #08948d;
+  text-decoration: none; }
+
+.navbar-light .navbar-nav .nav-link :hover {
+    color: orange; }
+
+.pie {
+  background-color: #474747;
+  padding: 15px;
+  justify-content: space-around; }
+
+.redes {
+  background: none;
+  list-style: none;
+  align-items: center; }
+  .redes li {
+    display: inline-block;
+    padding: 10px; }
+
+.texContacto {
+  color: #7edabe;
+  font-size: 14px;
+  width: 500px; }
+
+.nav1 {
+  flex-grow: inherit; }
+
+a:hover {
+  color: orange; }
+
+  p {
+    line-height: 1.5; }
+  
+h1 {
+    font-size: 35px;
+    color: #42929D;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    text-align: center; }
+  
+h2 {
+    font-size: 22px;
+    color: teal; }
+  
+h3 {
+    font-size: 18px;
+    color: #003366;
+    margin: 20px 0px 20px 0px;
+    font-weight: 600; }
+  
+h4 {
+    color: #282923;
+    background-color: #e26601;
+    margin-top: 6px;
+    padding: 7px 20px; }
+  
+.destacado {
+    color: #e26601;
+    font-weight: bold;
+    font-size: 17px; }
+  
+.texto1 {
+    margin-top: 20px; }
+  
+.caja--In {
+    animation: fadeIn 2s; }
+  
+.caja--InUp {
+    animation: fadeInUp 2s; }
+  
+.caja--Pulses {
+    animation: pulse 3s; }
+  
+.caja--Flip {
+    animation: flipInY 2s; }
+
+.cajaImg {
+  margin: auto;
+  width: 100%;
+  margin-bottom: 10px; }
+
+.bordeCarrousel {
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px; }
+
+.cajaTitular {
+  overflow: hidden;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  bottom: 120px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  z-index: 200; }
+
+.cajaTextIndex {
+  overflow: hidden;
+  margin: auto; }
+
+.cajaVideo {
+  background-color: #93dce9;
+  text-align: center;
+  border-radius: 10px;
+  transition: height 2s;
+  margin: 20px;
+  padding: 10px;
+  animation: flipInX 3.5s; }
+
+.cajaVideo__a:hover {
+  background-color: #FFD764;
+  cursor: pointer; }
+
+.cajaVideo__img {
+  width: 100%;
+  margin: auto; }
+
+.cajaVideo__titulo {
+  color: red;
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px; }
+
+/* ---estilos Acordion--------------------*/
+.acordion1A {
+  background-color: #e48458;
+  color: black;
+  box-shadow: black; }
+
+.acordion2A {
+  background-color: #76caca;
+  color: black;
+  box-shadow: black; }
+
+.acordion3A {
+  background-color: #dab950;
+  color: black;
+  box-shadow: black; }
+
+/* ---Seccion QUE ES--------------------*/
+.cajaQueEs {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center; }
+
+/* --- Seccion HISTORIA --------------------*/
+.cajaImgHistoria {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(../imagenes/fondo2.jpg); }
+
+.imgHistoria {
+  width: 290px;
+  border-radius: 10px;
+  margin: 20px;
+  animation: fadeInUp 3.5s; }
+
+/* --- Seccion INFORMACION --------------------*/
+.columnaInfo {
+  padding: 20px;
+  background-color: #ffdc7c;
+  border-radius: 10px;
+  margin: 10px;
+  animation: fadeIn 2s; }
+
+.imgInfo {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%; }
+
+/* -------------------768 --------------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+  /* --- Seccion HOME--------------------*/
+  .bordeCarrousel {
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; }
+  .aHome {
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: 120px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 200; }
+  /* --- Seccion HISTORIA --------------------*/
+  .cajaImgHistoria {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  /* --- Estilos TEXTO --------------------*/
+  h1 {
+    font-size: 45px;
+    margin-top: 10px;
+    padding: 10px; }
+  h2 {
+    font-size: 25px; }
+  h3 {
+    font-size: 20px; }
+  p {
+    font-size: 16px; } 
+}
+
+/* ------------------- FIN 768 --------------------------------------------------------------*/
+
