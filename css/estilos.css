@@ -35,9 +35,9 @@ a:hover {
   color: orange; }
 
 * {
+  text-decoration: none !important;
   margin: 0;
   padding: 0;
-  text-decoration: none;
   border: none; }
 
 body {
