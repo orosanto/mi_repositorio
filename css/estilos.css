@@ -116,24 +116,6 @@ body {
   margin-bottom: 15px;
   text-align: left !important; }
 
-/* --- Seccion PRODUCCION --------------------*/
-.cajaVideo {
-  background-color: #93dce9;
-  text-align: center;
-  border-radius: 10px;
-  transition: height 2s;
-  margin: 20px;
-  padding: 10px;
-  animation: flipInX 3.5s; }
-
-a:hover .cajaVideo {
-  background-color: #FFD764;
-  cursor: pointer; }
-
-.cajaVideo__img {
-  width: 100%;
-  margin: auto; }
-
 /* --- Seccion HISTORIA --------------------*/
 .cajaImgHistoria {
   display: flex;
@@ -154,6 +136,28 @@ a:hover .cajaVideo {
 .cajaTexHistoria {
   margin-top: 25px;
   margin-bottom: 25px; }
+
+/* --- Seccion PRODUCCION --------------------*/
+.cajaVideo {
+  background-color: #93dce9;
+  text-align: center;
+  border-radius: 10px;
+  transition: height 2s;
+  margin: 10px;
+  padding: 10px;
+  animation: flipInX 3.5s; }
+
+a:hover .cajaVideo {
+  background-color: #FFD764;
+  cursor: pointer; }
+
+.cajaVideo__img {
+  width: 100%;
+  margin: auto; }
+
+.cajaTexProduccion {
+  margin-top: 15px;
+  margin-bottom: 15px; }
 
 /* --- Seccion INFORMACION --------------------*/
 .columnaInfo {
