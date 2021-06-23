@@ -1,16 +1,23 @@
 header {
-	background-color: #EBEDEF 30%;
-	}
+	background-color: #c7e2e1;
+     opacity: 95%;
+        	}
 
 .logo{
      width: 180px; 
+     
 }
 
 .navbar-light .navbar-nav .nav-link{
     color:rgb(8, 148, 141);
-	text-decoration: none;
+	text-decoration: none;   }
 
-:hover{
-	color: orange;
+a:hover.nav-link {
+	color: orange !important;
         }
-    }
+ 
+ .dropdown-item.active, .dropdown-item:active {
+            color: #fff;
+            text-decoration: none;
+            background-color: #0dcaf0;
+}

@@ -4,11 +4,12 @@ p {
 }
 
 h1{ 
-	font-size: 35px;
+	font-size: 28px;
 	color: #42929D;
 	font-family: 'Dancing Script', cursive;
 	font-weight: 700;
 	text-align:center;
+	margin: 20px;
 	}
 
 h2 {
@@ -18,7 +19,7 @@ h2 {
 
 h3 {
 	font-size: 18px;
-	color: #003366;
+	color: #005f66;
 	margin: 20px 0px 20px 0px;
 	font-weight: 600;
 	}
@@ -28,6 +29,12 @@ h4 {color:#282923;
 	margin-top: 6px;
 	padding: 7px 20px; 	
 	}
+
+h5 {
+	font-size: 14px;
+	color: darkslategray;
+	padding: 5px;
+}
 
 .destacado {
 	color: rgb(226, 102, 1);
@@ -39,3 +46,6 @@ h4 {color:#282923;
 		margin-top: 20px;
 		}
 
+a {
+	color:#42929D;
+}

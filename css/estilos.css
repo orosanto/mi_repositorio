@@ -1,5 +1,6 @@
 header {
-  background-color: #EBEDEF 30%; }
+  background-color: #c7e2e1;
+  opacity: 95%; }
 
 .logo {
   width: 180px; }
@@ -7,8 +8,14 @@ header {
 .navbar-light .navbar-nav .nav-link {
   color: #08948d;
   text-decoration: none; }
-  .navbar-light .navbar-nav .nav-link :hover {
-    color: orange; }
+
+a:hover.nav-link {
+  color: orange !important; }
+
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0dcaf0; }
 
 .pie {
   background-color: #474747;
@@ -43,29 +50,73 @@ a:hover {
 body {
   font-family: 'Montserrat', sans-serif; }
 
+/* ---Seccion Home-------------------*/
 .cajaImg {
   margin: auto;
   width: 100%;
-  margin-bottom: 10px; }
+  margin-bottom: 15px;
+  padding: 10px; }
 
 .bordeCarrousel {
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px; }
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; }
+
+.carousel-control-prev-icon {
+  background-image: url("../imagenes/boton-prev.svg"); }
+
+.carousel-control-next-icon {
+  background-image: url("../imagenes/boton-next.svg"); }
 
 .cajaTitular {
   overflow: hidden;
-  margin: auto;
-  background-color: white;
-  position: relative;
-  bottom: 120px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  z-index: 200; }
+  margin: auto; }
 
 .cajaTextIndex {
   overflow: hidden;
   margin: auto; }
 
+.videoHome {
+  overflow: hidden;
+  margin: auto;
+  margin-bottom: 15px; }
+
+.fondoVideo {
+  background-image: url("../imagenes/fondovideo1.png");
+  background-repeat: no-repeat;
+  position: relative; }
+
+/* ---Seccion QUE ES--------------------*/
+.cajaQueEs {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.texto1 {
+  margin-bottom: 40px; }
+
+/* ---estilos Acordion--------------------*/
+.acordion1A {
+  background-color: #e48458;
+  color: black;
+  box-shadow: black;
+  margin-bottom: 15px;
+  text-align: left !important; }
+
+.acordion2A {
+  background-color: #76caca;
+  color: black;
+  box-shadow: black;
+  margin-bottom: 15px;
+  text-align: left !important; }
+
+.acordion3A {
+  background-color: #dab950;
+  color: black;
+  box-shadow: black;
+  margin-bottom: 15px;
+  text-align: left !important; }
+
+/* --- Seccion PRODUCCION --------------------*/
 .cajaVideo {
   background-color: #93dce9;
   text-align: center;
@@ -75,7 +126,7 @@ body {
   padding: 10px;
   animation: flipInX 3.5s; }
 
-.cajaVideo__a:hover {
+a:hover .cajaVideo {
   background-color: #FFD764;
   cursor: pointer; }
 
@@ -83,104 +134,55 @@ body {
   width: 100%;
   margin: auto; }
 
-.cajaVideo__titulo {
-  color: red;
-  font-family: 'Dancing Script', cursive;
-  font-size: 35px; }
-
-/* ---estilos Acordion--------------------*/
-.acordion1A {
-  background-color: #e48458;
-  color: black;
-  box-shadow: black; }
-
-.acordion2A {
-  background-color: #76caca;
-  color: black;
-  box-shadow: black; }
-
-.acordion3A {
-  background-color: #dab950;
-  color: black;
-  box-shadow: black; }
-
-/* ---Seccion QUE ES--------------------*/
-.cajaQueEs {
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center; }
-
 /* --- Seccion HISTORIA --------------------*/
 .cajaImgHistoria {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: url(../imagenes/fondo2-.jpg); }
+  background-image: url(../imagenes/fondo2-.jpg);
+  padding: 15px;
+  margin-top: 60px; }
 
 .imgHistoria {
   width: 290px;
   border-radius: 10px;
   margin: 20px;
+  padding: 5px;
   animation: fadeInUp 3.5s; }
+
+.cajaTexHistoria {
+  margin-top: 25px;
+  margin-bottom: 25px; }
 
 /* --- Seccion INFORMACION --------------------*/
 .columnaInfo {
   padding: 20px;
-  background-color: #ffdc7c;
   border-radius: 10px;
-  margin: 10px;
-  animation: fadeIn 2s; }
+  background-color: #ffe8a4;
+  margin: 20px;
+  animation: fadeInUp 2s; }
+
+.cajaSubtitulo {
+  height: 50px;
+  margin: auto;
+  padding: auto; }
 
 .imgInfo {
   margin-bottom: 20px;
   border-radius: 10px;
   width: 100%; }
 
-/* -------------------768 --------------------------------------------------------------*/
-@media only screen and (min-width: 768px) {
-  /* --- Seccion HOME--------------------*/
-  .bordeCarrousel {
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px; }
-  .aHome {
-    overflow: hidden;
-    margin: auto;
-    background-color: white;
-    position: relative;
-    bottom: 120px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    z-index: 200; }
-  /* --- Seccion HISTORIA --------------------*/
-  .cajaImgHistoria {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly; }
-  /* --- Estilos TEXTO --------------------*/
-  h1 {
-    font-size: 45px;
-    margin-top: 10px;
-    padding: 10px; }
-  h2 {
-    font-size: 25px; }
-  h3 {
-    font-size: 20px; }
-  p {
-    font-size: 16px; } }
-
-/* ------------------- FIN 768 --------------------------------------------------------------*/
 p {
   line-height: 1.5; }
 
 h1 {
-  font-size: 35px;
+  font-size: 28px;
   color: #42929D;
   font-family: 'Dancing Script', cursive;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  margin: 20px; }
 
 h2 {
   font-size: 22px;
@@ -188,7 +190,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  color: #003366;
+  color: #005f66;
   margin: 20px 0px 20px 0px;
   font-weight: 600; }
 
@@ -198,6 +200,11 @@ h4 {
   margin-top: 6px;
   padding: 7px 20px; }
 
+h5 {
+  font-size: 14px;
+  color: darkslategray;
+  padding: 5px; }
+
 .destacado {
   color: #e26601;
   font-weight: bold;
@@ -205,6 +212,9 @@ h4 {
 
 .texto1 {
   margin-top: 20px; }
+
+a {
+  color: #42929D; }
 
 .caja--In {
   animation: fadeIn 2s; }
@@ -217,3 +227,59 @@ h4 {
 
 .caja--Flip {
   animation: flipInY 2s; }
+
+.zoom {
+  transition: transform .2s;
+  margin: 0 auto; }
+
+.zoom:hover {
+  transform: scale(1.3); }
+
+/* -------------------768 --------------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+  /* --- Seccion HOME--------------------*/
+  .bordeCarrousel {
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px; }
+  .cajaTitular {
+    overflow: hidden;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    bottom: 80px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    z-index: 200; }
+  .cajaTextIndex {
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    bottom: 80px; }
+  .videoHome {
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 15px; }
+  .fondoVideo {
+    background-image: url("../imagenes/fondovideo1.png");
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 80px;
+    width: 100%; }
+  /* --- Seccion HISTORIA --------------------*/
+  .cajaImgHistoria {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+  /* --- Estilos TEXTO --------------------*/
+  h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 10px; }
+  h2 {
+    font-size: 25px; }
+  h3 {
+    font-size: 20px; }
+  p {
+    font-size: 16px; } }
+
+/* ------------------- FIN 768 --------------------------------------------------------------*/

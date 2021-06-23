@@ -1,0 +1,61 @@
+/* -------------------768 --------------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+    
+    /* --- Seccion HOME--------------------*/
+
+    .bordeCarrousel {
+      border-bottom-left-radius: 35px;
+      border-bottom-right-radius: 35px; }
+
+      .cajaTitular {
+        overflow: hidden;
+        margin: auto;
+        background-color:white;
+        position: relative;
+        bottom: 80px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px ;
+        z-index: 200;
+      }
+      
+      .cajaTextIndex{
+        overflow: hidden;
+        margin: auto;
+        position: relative;
+        bottom: 80px;
+      }
+
+      .videoHome {
+        overflow: hidden;
+        margin: auto;
+        margin-bottom: 15px;
+         }
+         
+      .fondoVideo {
+        background-image: url("../imagenes/fondovideo1.png");
+        background-repeat: no-repeat;
+        position: relative;
+        bottom: 80px;
+        width: 100%;
+      }
+
+    /* --- Seccion HISTORIA --------------------*/
+    .cajaImgHistoria {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly; }
+      
+    /* --- Estilos TEXTO --------------------*/
+    h1 {
+      font-size: 40px;
+      margin-top: 10px;
+      padding: 10px; }
+    h2 {
+      font-size: 25px; }
+    h3 {
+      font-size: 20px; }
+    p {
+      font-size: 16px; } 
+      }
+    
+  /* ------------------- FIN 768 --------------------------------------------------------------*/
